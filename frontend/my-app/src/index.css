@@ -1,0 +1,32 @@
+@import url("https://fonts.googleapis.com/css2?family=Mukta&family=Nanum+Gothic&family=Rubik&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;1,300&display=swap');
+:root {
+  --Secondary-Font: "Mukta", sans-serif;
+  --Heading-Font: "Bebas Neue", sans-serif;
+  --Logo-Font: "Pacifico", cursive;
+  --Regular-Font: "Nanum Gothic", sans-serif;
+  --Extra-Font: "Rubik", sans-serif;
+  --Tags-Font:'Roboto', sans-serif;
+  --Primary-font-color:#fff;
+  --Nav-Bg-Color: rgb(21, 46, 61);
+  --Btn-Color:rgb(72, 152, 202);
+}
+
+body {
+  background: linear-gradient(
+    190deg,
+    rgb(3, 35, 55) ,
+    rgb(15, 72, 108) ,
+    rgb(7, 39, 60) 
+  );
+  ;scroll-behavior: smooth;
+  color: #fff;
+  font-family: var(--Regular-Font);
+  margin: 0;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  user-select:none;
+
+}
